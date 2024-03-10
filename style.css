@@ -127,8 +127,6 @@ header{
 #biography{
     font-family: 'Arial', 'sans-serif', 'Courier New','Georgia';
     font-size: 30px;
-    width: 1700px;
-    height: 550px;
     display: flex;
     border: 10px solid white;
     background-color: white;
