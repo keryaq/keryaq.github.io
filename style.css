@@ -29,8 +29,8 @@ h1,h2,h3,h4,h5,h6{
     padding: 0px 10px 0px 10px;
     text-transform: uppercase;
     text-align: center;
-    -webkit-text-stroke: 1px black; /* Обводка текста вебкит браузерах */
-    text-stroke: 1px black; /* Обводка текста для других браузеров */
+    -webkit-text-stroke: 1px black;
+    text-stroke: 1px black;
 }
 
 .zaglavie_bio_title{
@@ -38,8 +38,8 @@ h1,h2,h3,h4,h5,h6{
     padding: 0px 10px 0px 10px;
     text-transform: uppercase;
     text-align: center;
-    -webkit-text-stroke: 1px black; /* Обводка текста вебкит браузерах */
-    text-stroke: 1px black; /* Обводка текста для других браузеров */
+    -webkit-text-stroke: 1px black;
+    text-stroke: 1px black;
 }
 
 .zaglavie_photos_title{
@@ -47,8 +47,8 @@ h1,h2,h3,h4,h5,h6{
     padding: 0px 10px 0px 10px;
     text-transform: uppercase;
     text-align: center;
-    -webkit-text-stroke: 1px black; /* Обводка текста вебкит браузерах */
-    text-stroke: 1px black; /* Обводка текста для других браузеров */
+    -webkit-text-stroke: 1px black;
+    text-stroke: 1px black;
 }
 
 .zaglavie_resume_title{
@@ -56,8 +56,8 @@ h1,h2,h3,h4,h5,h6{
     padding: 0px 10px 0px 10px;
     text-transform: uppercase;
     text-align: center;
-    -webkit-text-stroke: 1px black; /* Обводка текста вебкит браузерах */
-    text-stroke: 1px black; /* Обводка текста для других браузеров */
+    -webkit-text-stroke: 1px black;
+    text-stroke: 1px black;
 }
 
 .zaglavie_contact_title{
@@ -65,8 +65,8 @@ h1,h2,h3,h4,h5,h6{
     padding: 0px 10px 0px 10px;
     text-transform: uppercase;
     text-align: center;
-    -webkit-text-stroke: 1px black; /* Обводка текста вебкит браузерах */
-    text-stroke: 1px black; /* Обводка текста для других браузеров */
+    -webkit-text-stroke: 1px black;
+    text-stroke: 1px black;
 }
 
 /*head*/
@@ -196,8 +196,8 @@ table{
     font-size: 30px;
     color: #E0FFFF;
     margin-left: 300px;
-    -webkit-text-stroke: 1px black; /* Обводка текста вебкит браузерах */
-    text-stroke: 1px black; /* Обводка текста для других браузеров */
+    -webkit-text-stroke: 1px black;
+    text-stroke: 1px black;
     width: 80%;
     margin: auto;
     background-color: #fff;
@@ -238,8 +238,8 @@ ul.social-buttons {
 }
 
 ul.social-buttons li a {
-    -webkit-text-stroke: 1px black; /* Обводка текста вебкит браузерах */
-    text-stroke: 1px black; /* Обводка текста для других браузеров */
+    -webkit-text-stroke: 1px black;
+    text-stroke: 1px black;
     font-size: 20px;
     line-height: 50px;
     display: block;
