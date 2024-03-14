@@ -116,11 +116,11 @@ header{
     padding: 0px 25px 0px 0px;
     color:#7B68EE;
     text-decoration: none; 
-    transition: color 0.2s linear;
+    transition: color 1s linear;
 }
 
 .nav_links a:hover{
-    color:blueviolet;
+    color:red;
 }
 
 /*биография*/
@@ -152,7 +152,6 @@ header{
     overflow: hidden;
     border: .1rem solid #fff;
     margin:1rem;
-    cursor: pointer;
 }
 
 /*резюме*/
@@ -261,4 +260,14 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .list-inline-item {
   display: inline-block;
+}
+
+.fotkagl{
+    width: 100%;
+    max-width: 40rem;
+    height: 40rem;
+    display: block;
+    overflow: hidden;
+    border: .1rem solid #fff;
+    margin: 1rem auto;    
 }
