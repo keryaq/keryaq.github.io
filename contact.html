@@ -67,7 +67,7 @@
     <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
     <script>
         emailjs.init("_DdLMquvhPuZ_okqm");
-        document.getElementById('form').addEventListener('submit', function(event) {
+        document.getElementById("form").addEventListener('submit', function(event) {
         event.preventDefault(); // Не обновляйте страницу, пока сообщение не отправлено
         emailjs.sendForm('service_gwg7scb', 'template_cibuwv8', this)
         .then(function() {
