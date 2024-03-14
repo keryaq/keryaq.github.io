@@ -26,19 +26,14 @@
         <section>
             <h2>Связаться со мной:</h2>
             <form id="form">
-            	<!--скрыто от пользователя, для прихода сообщений на почту -->
-            	<input type="hidden" name="project_name" value="portfolio">
-				<input type="hidden" name="admin_email" value="stud179283@vyatsu.ru">
-				<input type="hidden" name="form_subject" value="Заявка по резюме">
-				<!--конец скрытого -->
                 <label for="name">Имя:</label>
-                <input name = "Имя" type="text" id="name" name="name" required>
+                <input name = "Имя" type="text" id="name"required>
                 <label for="email">Email:</label>
-                <input name ="e-mail"  type="email" id="email" name="email" required>
+                <input name ="e-mail"  type="email" id="email"required>
                 <label for="phone">Номер телефона:</label>
-                <input name = "Телефон" type="text" id="phone" name="phone">
+                <input name = "Телефон" type="text" id="phone">
                 <label for="message">Ваше сообщение:</label>
-                <textarea name = "Сообщение" id="message" name="message" required></textarea>
+                <textarea name = "Сообщение" id="message"required></textarea>
                 <input type="submit" value="Отправить">
             </form>
         </section>
@@ -68,7 +63,19 @@
             </ul>
         </section>
     </main>
-    <script src = "script.js"></script>
+    <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+	<script>
+	emailjs.init("_DdLMquvhPuZ_okqm");
+	document.getElementById('form').addEventListener('submit', function(event) {
+	event.preventDefault(); // Не обновляйте страницу, пока сообщение не отправлено
+	emailjs.sendForm('service_gwg7scb', 'template_www0bb9', this)
+	.then(function() {
+	alert('Сообщение успешно отправлено!');
+	}, function(error) {
+	alert('Ошибка отправки: ' + error);
+	});
+	});
+</script>
 	</body>
 
 </html>
