@@ -1,8 +1,7 @@
 <html class = "fon">
 	<head>
-		<meta charset="UTF-8">
-        	<title>Контакты</title>
-        	<link rel="stylesheet" href="style.css">
+        <title>Контакты</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
@@ -27,14 +26,19 @@
         <section>
             <h2>Связаться со мной:</h2>
             <form id="form">
+            	<!--скрыто от пользователя, для прихода сообщений на почту -->
+            	<input type="hidden" name="project_name" value="portfolio">
+				<input type="hidden" name="admin_email" value="stud179283@vyatsu.ru">
+				<input type="hidden" name="form_subject" value="Заявка по резюме">
+				<!--конец скрытого -->
                 <label for="name">Имя:</label>
-                <input type="text" id="name" name="name" required>
+                <input name = "Имя" type="text" id="name" name="name" required>
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input name ="e-mail"  type="email" id="email" name="email" required>
                 <label for="phone">Номер телефона:</label>
-                <input type="text" id="phone" name="phone">
+                <input name = "Телефон" type="text" id="phone" name="phone">
                 <label for="message">Ваше сообщение:</label>
-                <textarea id="message" name="message" required></textarea>
+                <textarea name = "Сообщение" id="message" name="message" required></textarea>
                 <input type="submit" value="Отправить">
             </form>
         </section>
@@ -64,6 +68,7 @@
             </ul>
         </section>
     </main>
+    <script src = "script.js"></script>
 	</body>
 
 </html>
